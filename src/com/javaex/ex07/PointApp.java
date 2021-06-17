@@ -20,7 +20,7 @@ public class PointApp {
 		pSet.add(p01);
 		pSet.add(p02);
 		pSet.add(p03);
-		
+		System.out.println(pSet.toString());
 		
 		for(Point p:pSet) {
 			System.out.println(p);
@@ -34,6 +34,22 @@ public class PointApp {
 		pSet.add(p04);
 		
 		System.out.println(pSet);
+		
+		
+		
+		
+		//Point 비교
+		System.out.println(p02.equals(p04));
+		System.out.println(p01.equals(p04));
+		System.out.println(p02 == p04);
+		
+		
+		//hash code
+		System.out.println(p01.hashCode());
+		System.out.println(p02.hashCode());
+		System.out.println(p03.hashCode());
+		System.out.println(p04.hashCode());
+		
 	}
 
 }

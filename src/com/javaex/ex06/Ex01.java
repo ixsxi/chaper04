@@ -10,15 +10,16 @@ public class Ex01 {
 		//HashSet 만든다.
 		Set<Integer> iSet = new HashSet<Integer>();
 		
-		Integer i01 = 4;
-		Integer i02 = 5;
-		Integer i03 = 6;
+		Integer i00 = 4;
+		Integer i01 = 5;
+		Integer i02 = 6;
 		
 		
 		
+		iSet.add(i00);
 		iSet.add(i01);
 		iSet.add(i02);
-		iSet.add(i03);
+	
 		
 		System.out.println(iSet.size());
 		
@@ -34,6 +35,8 @@ public class Ex01 {
 		// 중복값을 넣는다.
 		Integer i04 = 5;
 		iSet.add(i04);
+		System.out.println(iSet);
+		
 		
 		for(Integer num : iSet) {
 			System.out.println(num);

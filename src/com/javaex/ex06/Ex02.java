@@ -19,7 +19,7 @@ public class Ex02 {
 		
 		System.out.println("============");
 		for(int lottonum : lotto) {
-			System.out.println(lotto);
+			System.out.println(lottonum);
 		}
 		
 		

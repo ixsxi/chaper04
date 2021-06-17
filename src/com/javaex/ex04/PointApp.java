@@ -9,21 +9,21 @@ public class PointApp {
 
 		ArrayList<Point> pList = new ArrayList<Point>(); //제네릭 Point로 첨에 ArrayList는 오브젝트임
 		
-		Point p01 = new Point(2,4);
-		Point p02 = new Point(3,6);
-		Point p03 = new Point(4,8);
-		Point p04 = new Point(5,10);
+		Point p00 = new Point(2,4);
+		Point p01 = new Point(3,6);
+		Point p02 = new Point(4,8);
+		Point p03 = new Point(5,10);
+		
+		
+		pList.add(p00); // 배열에 주소넣기
+		System.out.println(pList.size()); //방의 갯수
 		
 		
 		pList.add(p01); // 배열에 주소넣기
 		System.out.println(pList.size());
 		
-		
-		pList.add(p02); // 배열에 주소넣기
+		pList.add(p02);
 		System.out.println(pList.size());
-		
-		pList.add(p03);
-		
 		
 		
 		Point p = pList.get(1);
@@ -48,8 +48,8 @@ public class PointApp {
 		
 		
 		//p04 를 -- > [1]add 
-		pList.add(1, p04);
-		System.out.println(pList);
+		//pList.add(1, p04);
+		//System.out.println(pList);
 		
 		
 		//[1]를 삭제

@@ -3,11 +3,8 @@ package com.javaex.ex04;
 public class Circle {
 
 	
-	
 	private int radius;
 
-	
-	
 	
 	//생성자
 	public Circle(int radius) {

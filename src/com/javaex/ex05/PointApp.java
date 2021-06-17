@@ -25,10 +25,13 @@ public class PointApp {
 		System.out.println(pList.size());
 		
 		pList.add(p03);
+		System.out.println(pList.size());
 		
-		
+		pList.add(p04);
+		System.out.println(pList.size());
 		
 		Point p = pList.get(1);
+		System.out.println(pList.get(2));
 		System.out.println(p.getX());
 		System.out.println(p.getY());
 		System.out.println(p.toString());
@@ -62,10 +65,11 @@ public class PointApp {
 		System.out.println("---------------------------");
 		//항상된 for문 무조건 처음 -- > 끝
 		for( Point ppp : pList) {
+			
 			System.out.println(ppp);
 		}
 		
-		
+		System.out.println(pList);
 		//pList 원 추가
 		
 		
